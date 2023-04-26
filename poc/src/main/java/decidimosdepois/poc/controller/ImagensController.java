@@ -8,6 +8,6 @@ public class ImagensController {
 
     @GetMapping("/imagens")
     public String exibirImagens() {
-        return "html/paginaInicial.html";
+        return "html/paginaLogin.html";
     }
 }
