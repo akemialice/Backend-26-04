@@ -1,0 +1,28 @@
+/*Definindo a altura e largura da imagem do logo*/
+.logo img {
+    height: 100px;
+    width: auto;
+}
+
+/*Definindo a margem à direita para os itens do cabeçalho*/
+.nav-link {
+    margin-right: 40px;
+}
+
+/*Definindo o sublinhado para o link em que a pessoa está*/
+.navbar-nav .nav-link.active {
+    text-decoration: underline;
+}
+
+/*Configuração do botão sair*/
+
+#btnSair {
+    background-color: #f44336;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
